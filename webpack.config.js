@@ -10,7 +10,7 @@ module.exports = {
     tickets: './assets/js/tickets.js'
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.join(__dirname, '/public/assets/js'),
     filename: '[name].bundle.js'
   },
   plugins: [
